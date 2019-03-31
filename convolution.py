@@ -1,3 +1,6 @@
+#dddgggg
+#dddd
+
 import numpy as np
 import cv2
 from matplotlib import pyplot as plt
@@ -50,6 +53,7 @@ def convolution(original_image = None, filter=default_filter):
             #new_image[i:i+1, j:j+1] = sum
                     new_image[i,j] = sum
         return new_image
+        #deneme=3
 
 
 img = cv2.imread("sonnet.png")
